@@ -17,7 +17,8 @@ namespace Alumnos_consulta
      {
         for (int i = 0; i < alumnoCarrera.Count; i++)
         {
-            Console.WriteLine("Buscando Aumno. . .");
+            
+            Console.WriteLine("Buscando Alumno. . .");
             if(alumnoCarrera[i].matricula == matricula)
             {
                 return alumnoCarrera[i];
@@ -25,6 +26,8 @@ namespace Alumnos_consulta
         }
          return null;
      }
+
+    
 
 
 
